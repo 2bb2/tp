@@ -1,0 +1,16 @@
+[ 2016-12-18T20:47:50+08:00 ] 127.0.0.1 /Dept/addOk.html
+ERR: 1366:Incorrect integer value: '来一个' for column 'dept_sort' at row 1
+ [ SQL语句 ] : INSERT INTO `oa_dept` (`dept_name`,`dept_pid`,`dept_level`,`dept_sort`,`dept_remark`,`dept_ctime`) VALUES ('技术部1','2','1','来一个','来一个','2016-12-18')
+
+[ 2016-12-18T21:04:52+08:00 ] 127.0.0.1 /Dept/U(index)
+ERR: 非法操作:U(index)
+
+[ 2016-12-18T21:05:17+08:00 ] 127.0.0.1 /Dept/U(index)
+ERR: 非法操作:U(index)
+
+[ 2016-12-18T21:05:17+08:00 ] 127.0.0.1 /Dept/U(index)
+ERR: 非法操作:U(index)
+
+[ 2016-12-18T21:05:22+08:00 ] 127.0.0.1 /Dept/U(index)
+ERR: 非法操作:U(index)
+

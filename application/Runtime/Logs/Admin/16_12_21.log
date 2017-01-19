@@ -1,0 +1,129 @@
+[ 2016-12-21T00:02:43+08:00 ] 127.0.0.1 /dept/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'n d2 on d1.dept_pid=d2.dept_id' at line 3
+ [ SQL语句 ] : SELECT d1.dept_id,d1.dept_ctime,d1.dept_name,
+    d1.dept_remark,d1.dept_sort,d1.dept_pid
+   from oa_dept d1  left join oa_dept dept_name n d2 on d1.dept_pid=d2.dept_id 
+
+[ 2016-12-21T00:02:54+08:00 ] 127.0.0.1 /dept/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'name d2 on d1.dept_pid=d2.dept_id' at line 3
+ [ SQL语句 ] : SELECT d1.dept_id,d1.dept_ctime,d1.dept_name,
+    d1.dept_remark,d1.dept_sort,d1.dept_pid
+   from oa_dept d1  left join oa_dept dept_name name d2 on d1.dept_pid=d2.dept_id 
+
+[ 2016-12-21T00:05:04+08:00 ] 127.0.0.1 /dept/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'd1.dept_remark,d1.dept_sort,d1.dept_pid
+   from oa_dept d1  left join oa_dept d' at line 2
+ [ SQL语句 ] : SELECT d1.dept_id,d1.dept_ctime,d1.dept_name,d2.dept_name name
+    d1.dept_remark,d1.dept_sort,d1.dept_pid
+   from oa_dept d1  left join oa_dept d2 on d1.dept_pid=d2.dept_id 
+
+[ 2016-12-21T00:05:36+08:00 ] 127.0.0.1 /dept/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'd1.dept_remark,d1.dept_sort,d1.dept_pid
+   from oa_dept d1  left join oa_dept d' at line 2
+ [ SQL语句 ] : SELECT d1.dept_id,d1.dept_ctime,d1.dept_name,d2.dept_name as name
+    d1.dept_remark,d1.dept_sort,d1.dept_pid
+   from oa_dept d1  left join oa_dept d2 on d1.dept_pid=d2.dept_id 
+
+[ 2016-12-21T00:05:46+08:00 ] 127.0.0.1 /dept/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'd1.dept_remark,d1.dept_sort,d1.dept_pid
+   from oa_dept d1  left join oa_dept d' at line 2
+ [ SQL语句 ] : SELECT d1.dept_id,d1.dept_ctime,d2.dept_name as name
+    d1.dept_remark,d1.dept_sort,d1.dept_pid
+   from oa_dept d1  left join oa_dept d2 on d1.dept_pid=d2.dept_id 
+
+[ 2016-12-21T00:06:33+08:00 ] 127.0.0.1 /dept/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.dept_remark,d1.dept_sort,d1.dept_pid
+   from oa_dept d1  left join oa_dept d2 ' at line 2
+ [ SQL语句 ] : SELECT d1.dept_id,d1.dept_ctime,d2.dept_name 
+    d1.dept_remark,d1.dept_sort,d1.dept_pid
+   from oa_dept d1  left join oa_dept d2 on d1.dept_pid=d2.dept_id 
+
+[ 2016-12-21T00:07:33+08:00 ] 127.0.0.1 /dept/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.dept_remark,d1.dept_sort,d1.dept_pid
+   from oa_dept d1  left join oa_dept d2 ' at line 2
+ [ SQL语句 ] : SELECT d1.dept_id,d1.dept_ctime,d1.dept_name
+    d1.dept_remark,d1.dept_sort,d1.dept_pid
+   from oa_dept d1  left join oa_dept d2 on d1.dept_pid=d2.dept_id 
+
+[ 2016-12-21T00:45:42+08:00 ] 127.0.0.1 /Dept/del/id/3.html
+ERR: Think\Controller:getlastsql方法不存在！
+
+[ 2016-12-21T19:16:03+08:00 ] 127.0.0.1 /Dept/edit/id/2.html
+ERR: 模板不存在:./application/Admin/View/Dept/dept_arr.html
+
+[ 2016-12-21T19:16:36+08:00 ] 127.0.0.1 /Dept/edit/id/2.html
+ERR: 模板不存在:./application/Admin/View/Dept/dept_list.html
+
+[ 2016-12-21T19:17:28+08:00 ] 127.0.0.1 /Dept/edit/id/2.html
+ERR: 模板不存在:./application/Admin/View/Dept/dept_list.html
+
+[ 2016-12-21T19:17:34+08:00 ] 127.0.0.1 /Dept/edit/id/2.html
+ERR: 模板不存在:./application/Admin/View/Dept/dept_list.html
+
+[ 2016-12-21T19:19:44+08:00 ] 127.0.0.1 /Dept/edit/id/2.html
+ERR: 模板不存在:./application/Admin/View/Dept/dept_list.html
+
+[ 2016-12-21T19:49:48+08:00 ] 127.0.0.1 /Dept/edit/id/4.html
+ERR: XML标签语法错误 : conditon="<?php echo ($dept_info["dept_pid  eq $vo"]["dept_id"]); ?
+
+[ 2016-12-21T20:10:45+08:00 ] 127.0.0.1 /css/base.css
+ERR: 无法加载控制器:Css
+
+[ 2016-12-21T20:10:45+08:00 ] 127.0.0.1 /js/jquery.pagination.js
+ERR: 无法加载控制器:Js
+
+[ 2016-12-21T20:10:45+08:00 ] 127.0.0.1 /js/common.js
+ERR: 无法加载控制器:Js
+
+[ 2016-12-21T20:10:45+08:00 ] 127.0.0.1 /js/jquery.js
+ERR: 无法加载控制器:Js
+
+[ 2016-12-21T20:10:45+08:00 ] 127.0.0.1 /js/WdatePicker.js
+ERR: 无法加载控制器:Js
+
+[ 2016-12-21T20:10:45+08:00 ] 127.0.0.1 /css/WdatePicker.css
+ERR: 无法加载控制器:Css
+
+[ 2016-12-21T20:10:45+08:00 ] 127.0.0.1 /js/common.js
+ERR: 无法加载控制器:Js
+
+[ 2016-12-21T20:10:45+08:00 ] 127.0.0.1 /css/info-mgt.css
+ERR: 无法加载控制器:Css
+
+[ 2016-12-21T20:10:45+08:00 ] 127.0.0.1 /js/WdatePicker.js
+ERR: 无法加载控制器:Js
+
+[ 2016-12-21T20:10:45+08:00 ] 127.0.0.1 /js/jquery.pagination.js
+ERR: 无法加载控制器:Js
+
+[ 2016-12-21T22:30:35+08:00 ] 127.0.0.1 /user/index
+ERR: 模板不存在:./application/Admin/View/User/user_list.html
+
+[ 2016-12-21T22:32:03+08:00 ] 127.0.0.1 /user/index
+ERR: 模板不存在:./application/Admin/View/User/user_list.html
+
+[ 2016-12-21T22:32:58+08:00 ] 127.0.0.1 /user/index
+ERR: 模板不存在:./application/Admin/View/User/user_list.html
+
+[ 2016-12-21T22:37:46+08:00 ] 127.0.0.1 /user/index
+ERR: 模板不存在:./application/Admin/View/User/user_list.html
+
+[ 2016-12-21T22:41:08+08:00 ] 127.0.0.1 /user/index
+ERR: 模板不存在:./application/Admin/View/User/user_list.html
+
+[ 2016-12-21T22:41:15+08:00 ] 127.0.0.1 /user/index
+ERR: 模板不存在:./application/Admin/View/User/user_list.html
+
+[ 2016-12-21T22:44:05+08:00 ] 127.0.0.1 /user/index
+ERR: 模板不存在:./application/Admin/View/User/user_list.html
+
+[ 2016-12-21T22:44:43+08:00 ] 127.0.0.1 /user/index
+ERR: 模板不存在:./application/Admin/View/User/user_list.html
+
+[ 2016-12-21T22:44:57+08:00 ] 127.0.0.1 /user/index
+ERR: 模板不存在:./application/Admin/View/User/user_list.html
+
+[ 2016-12-21T23:54:41+08:00 ] 127.0.0.1 /User/addOk.html
+ERR: 1364:Field 'user_dept' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `oa_user` (`user_name`,`user_nickname`,`user_password`,`user_sex`,`user_birthday`,`user_tel`,`user_email`,`user_ctime`) VALUES ('赵敏','12','202cb962ac59075b964b07152d234b70','男','2016-11-28','12312345689','dd@qq.com','2016-12-21 23:54:39')
+

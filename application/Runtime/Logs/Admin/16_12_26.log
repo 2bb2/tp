@@ -1,0 +1,230 @@
+[ 2016-12-26T19:10:28+08:00 ] 127.0.0.1 /Doc/show.html?id=13&_=0.9558181486248726
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+NOTIC: [2048] Declaration of Admin\Controller\DocController::show() should be compatible with that of Think\Controller::show() E:\tp\application\Admin\Controller\DocController.class.php 第 90 行.
+SQL: SELECT `doc_title`,`doc_content` FROM `oa_doc` WHERE `doc_id` = '13' LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001974s ]
+
+[ 2016-12-26T19:10:28+08:00 ] 127.0.0.1 /thinkoa/index.php/Admin/Doc/getContent?id=13&_=1482750627152
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+ERR: 无法加载控制器:Thinkoa
+
+[ 2016-12-26T19:16:58+08:00 ] 127.0.0.1 /konwledge/index
+ERR: 无法加载控制器:Konwledge
+
+[ 2016-12-26T19:17:52+08:00 ] 127.0.0.1 /konw/index
+ERR: 无法加载控制器:Konw
+
+[ 2016-12-26T19:17:54+08:00 ] 127.0.0.1 /konw/index
+ERR: 无法加载控制器:Konw
+
+[ 2016-12-26T19:18:32+08:00 ] 127.0.0.1 /konw/index
+ERR: 无法加载控制器:Konw
+
+[ 2016-12-26T19:18:32+08:00 ] 127.0.0.1 /konw/index
+ERR: 无法加载控制器:Konw
+
+[ 2016-12-26T19:18:37+08:00 ] 127.0.0.1 /kow/index
+ERR: 无法加载控制器:Kow
+
+[ 2016-12-26T19:18:43+08:00 ] 127.0.0.1 /css/base.css
+ERR: 无法加载控制器:Css
+
+[ 2016-12-26T19:18:43+08:00 ] 127.0.0.1 /js/core.js
+ERR: 无法加载控制器:Js
+
+[ 2016-12-26T19:18:43+08:00 ] 127.0.0.1 /js/WdatePicker.js
+ERR: 无法加载控制器:Js
+
+[ 2016-12-26T19:18:43+08:00 ] 127.0.0.1 /js/jquery.js
+ERR: 无法加载控制器:Js
+
+[ 2016-12-26T19:18:43+08:00 ] 127.0.0.1 /js/jquery.pagination.js
+ERR: 无法加载控制器:Js
+
+[ 2016-12-26T19:18:43+08:00 ] 127.0.0.1 /css/WdatePicker.css
+ERR: 无法加载控制器:Css
+
+[ 2016-12-26T19:18:43+08:00 ] 127.0.0.1 /css/info-mgt.css
+ERR: 无法加载控制器:Css
+
+[ 2016-12-26T19:18:43+08:00 ] 127.0.0.1 /js/common.js
+ERR: 无法加载控制器:Js
+
+[ 2016-12-26T19:18:43+08:00 ] 127.0.0.1 /js/core.js
+ERR: 无法加载控制器:Js
+
+[ 2016-12-26T19:18:43+08:00 ] 127.0.0.1 /js/WdatePicker.js
+ERR: 无法加载控制器:Js
+
+[ 2016-12-26T19:18:43+08:00 ] 127.0.0.1 /js/jquery.pagination.js
+ERR: 无法加载控制器:Js
+
+[ 2016-12-26T19:20:33+08:00 ] 127.0.0.1 /css/info-reg.css
+ERR: 无法加载控制器:Css
+
+[ 2016-12-26T19:20:33+08:00 ] 127.0.0.1 /css/base.css
+ERR: 无法加载控制器:Css
+
+[ 2016-12-26T19:20:33+08:00 ] 127.0.0.1 /js/WdatePicker.js
+ERR: 无法加载控制器:Js
+
+[ 2016-12-26T19:20:33+08:00 ] 127.0.0.1 /js/common.js
+ERR: 无法加载控制器:Js
+
+[ 2016-12-26T19:20:34+08:00 ] 127.0.0.1 /js/WdatePicker.js
+ERR: 无法加载控制器:Js
+
+[ 2016-12-26T19:32:08+08:00 ] 127.0.0.1 /css/base.css
+ERR: 无法加载控制器:Css
+
+[ 2016-12-26T19:32:08+08:00 ] 127.0.0.1 /css/info-mgt.css
+ERR: 无法加载控制器:Css
+
+[ 2016-12-26T19:32:08+08:00 ] 127.0.0.1 /css/WdatePicker.css
+ERR: 无法加载控制器:Css
+
+[ 2016-12-26T19:32:08+08:00 ] 127.0.0.1 /js/core.js
+ERR: 无法加载控制器:Js
+
+[ 2016-12-26T19:32:08+08:00 ] 127.0.0.1 /js/common.js
+ERR: 无法加载控制器:Js
+
+[ 2016-12-26T19:32:08+08:00 ] 127.0.0.1 /js/jquery.js
+ERR: 无法加载控制器:Js
+
+[ 2016-12-26T19:32:08+08:00 ] 127.0.0.1 /js/WdatePicker.js
+ERR: 无法加载控制器:Js
+
+[ 2016-12-26T19:32:08+08:00 ] 127.0.0.1 /js/jquery.pagination.js
+ERR: 无法加载控制器:Js
+
+[ 2016-12-26T19:32:08+08:00 ] 127.0.0.1 /js/common.js
+ERR: 无法加载控制器:Js
+
+[ 2016-12-26T19:32:08+08:00 ] 127.0.0.1 /js/core.js
+ERR: 无法加载控制器:Js
+
+[ 2016-12-26T19:32:08+08:00 ] 127.0.0.1 /js/WdatePicker.js
+ERR: 无法加载控制器:Js
+
+[ 2016-12-26T19:32:08+08:00 ] 127.0.0.1 /js/jquery.pagination.js
+ERR: 无法加载控制器:Js
+
+[ 2016-12-26T19:32:33+08:00 ] 127.0.0.1 /email/_PUBLIC__/Admin/css/WdatePicker.css
+ERR: 非法操作:_PUBLIC__
+
+[ 2016-12-26T19:32:33+08:00 ] 127.0.0.1 /email/_PUBLIC__/Admin/js/WdatePicker.js
+ERR: 非法操作:_PUBLIC__
+
+[ 2016-12-26T19:32:33+08:00 ] 127.0.0.1 /email/_PUBLIC__/Admin/js/common.js
+ERR: 非法操作:_PUBLIC__
+
+[ 2016-12-26T19:32:33+08:00 ] 127.0.0.1 /email/_PUBLIC__/Admin/js/jquery.js
+ERR: 非法操作:_PUBLIC__
+
+[ 2016-12-26T19:32:33+08:00 ] 127.0.0.1 /email/_PUBLIC__/Admin/css/base.css
+ERR: 非法操作:_PUBLIC__
+
+[ 2016-12-26T19:32:33+08:00 ] 127.0.0.1 /email/_PUBLIC__/Admin/js/jquery.pagination.js
+ERR: 非法操作:_PUBLIC__
+
+[ 2016-12-26T19:32:33+08:00 ] 127.0.0.1 /email/_PUBLIC__/Admin/js/core.js
+ERR: 非法操作:_PUBLIC__
+
+[ 2016-12-26T19:32:33+08:00 ] 127.0.0.1 /email/_PUBLIC__/Admin/css/info-mgt.css
+ERR: 非法操作:_PUBLIC__
+
+[ 2016-12-26T19:32:33+08:00 ] 127.0.0.1 /email/_PUBLIC__/Admin/js/common.js
+ERR: 非法操作:_PUBLIC__
+
+[ 2016-12-26T19:32:33+08:00 ] 127.0.0.1 /email/_PUBLIC__/Admin/js/core.js
+ERR: 非法操作:_PUBLIC__
+
+[ 2016-12-26T19:32:33+08:00 ] 127.0.0.1 /email/_PUBLIC__/Admin/js/WdatePicker.js
+ERR: 非法操作:_PUBLIC__
+
+[ 2016-12-26T19:32:33+08:00 ] 127.0.0.1 /email/_PUBLIC__/Admin/js/jquery.pagination.js
+ERR: 非法操作:_PUBLIC__
+
+[ 2016-12-26T19:32:34+08:00 ] 127.0.0.1 /email/_PUBLIC__/Admin/css/info-mgt.css
+ERR: 非法操作:_PUBLIC__
+
+[ 2016-12-26T19:32:34+08:00 ] 127.0.0.1 /email/_PUBLIC__/Admin/css/base.css
+ERR: 非法操作:_PUBLIC__
+
+[ 2016-12-26T19:32:34+08:00 ] 127.0.0.1 /email/_PUBLIC__/Admin/css/WdatePicker.css
+ERR: 非法操作:_PUBLIC__
+
+[ 2016-12-26T19:32:34+08:00 ] 127.0.0.1 /email/_PUBLIC__/Admin/js/jquery.js
+ERR: 非法操作:_PUBLIC__
+
+[ 2016-12-26T19:32:34+08:00 ] 127.0.0.1 /email/_PUBLIC__/Admin/js/common.js
+ERR: 非法操作:_PUBLIC__
+
+[ 2016-12-26T19:32:34+08:00 ] 127.0.0.1 /email/_PUBLIC__/Admin/js/WdatePicker.js
+ERR: 非法操作:_PUBLIC__
+
+[ 2016-12-26T19:32:34+08:00 ] 127.0.0.1 /email/_PUBLIC__/Admin/js/jquery.pagination.js
+ERR: 非法操作:_PUBLIC__
+
+[ 2016-12-26T19:32:34+08:00 ] 127.0.0.1 /email/_PUBLIC__/Admin/js/core.js
+ERR: 非法操作:_PUBLIC__
+
+[ 2016-12-26T19:32:34+08:00 ] 127.0.0.1 /email/_PUBLIC__/Admin/js/WdatePicker.js
+ERR: 非法操作:_PUBLIC__
+
+[ 2016-12-26T19:32:34+08:00 ] 127.0.0.1 /email/_PUBLIC__/Admin/js/jquery.pagination.js
+ERR: 非法操作:_PUBLIC__
+
+[ 2016-12-26T19:48:02+08:00 ] 127.0.0.1 /Email/addOK.html
+ERR: 非法操作:addOK
+
+[ 2016-12-26T20:36:02+08:00 ] 127.0.0.1 /Email/addOK.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : select user_name from oa_user where user_id= 
+
+[ 2016-12-26T20:36:18+08:00 ] 127.0.0.1 /Email/addOK.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : select user_name from oa_user where user_id= 
+
+[ 2016-12-26T20:43:25+08:00 ] 127.0.0.1 /Email/addOK.html
+ERR: 1366:Incorrect integer value: 'admin' for column 'email_to' at row 1
+ [ SQL语句 ] : INSERT INTO `oa_email` (`email_to`,`email_title`,`email_content`,`email_ctime`,`email_from`) VALUES ('admin','dwddwd','fds','2016-12-26 20:43:24','root')
+
+[ 2016-12-26T20:48:22+08:00 ] 127.0.0.1 /Email/addOK.html
+ERR: 1366:Incorrect integer value: 'admin' for column 'email_to' at row 1
+ [ SQL语句 ] : INSERT INTO `oa_email` (`email_to`,`email_title`,`email_content`,`email_ctime`,`email_from`) VALUES ('admin','dwddwd','fds','2016-12-26','root')
+
+[ 2016-12-26T20:50:53+08:00 ] 127.0.0.1 /Email/addOK.html
+ERR: 1366:Incorrect integer value: 'zhangsan' for column 'email_to' at row 1
+ [ SQL语句 ] : INSERT INTO `oa_email` (`email_to`,`email_title`,`email_content`,`email_ctime`,`email_from`) VALUES ('zhangsan','dwddwd','fds','2016-12-26','root')
+
+[ 2016-12-26T20:52:51+08:00 ] 127.0.0.1 /Email/addOK.html
+ERR: 1366:Incorrect integer value: 'myroot' for column 'email_to' at row 1
+ [ SQL语句 ] : INSERT INTO `oa_email` (`email_to`,`email_title`,`email_content`,`email_ctime`,`email_from`) VALUES ('myroot','dwddwd','fds','2016-12-26','root')
+
+[ 2016-12-26T20:59:21+08:00 ] 127.0.0.1 /Email/addOK.html
+ERR: 1366:Incorrect integer value: 'myroot' for column 'email_to' at row 1
+ [ SQL语句 ] : INSERT INTO `oa_email` (`email_to`,`email_title`,`email_content`,`email_ctime`,`email_from`) VALUES ('myroot','dwddwd','fds','2016-12-26','root')
+
+[ 2016-12-26T20:59:29+08:00 ] 127.0.0.1 /Email/addOK.html
+ERR: 1366:Incorrect integer value: 'root' for column 'email_to' at row 1
+ [ SQL语句 ] : INSERT INTO `oa_email` (`email_to`,`email_title`,`email_content`,`email_ctime`,`email_from`) VALUES ('root','dwddwd','fds','2016-12-26','root')
+
+[ 2016-12-26T21:16:57+08:00 ] 127.0.0.1 /Email/addOK.html
+ERR: 1366:Incorrect integer value: 'admin' for column 'email_to' at row 1
+ [ SQL语句 ] : INSERT INTO `oa_email` (`email_to`,`email_title`,`email_content`,`email_ctime`,`email_from`,`email_file`) VALUES ('admin','dwddwd','fds','2016-12-26','2','./Upload/')
+
+[ 2016-12-26T21:20:56+08:00 ] 127.0.0.1 /Email/addOK.html
+ERR: 1062:Duplicate entry 'dwddwd' for key 'email_title'
+ [ SQL语句 ] : INSERT INTO `oa_email` (`email_to`,`email_title`,`email_content`,`email_ctime`,`email_from`,`email_file`) VALUES ('1','dwddwd','fds','2016-12-26','2','./Upload/')
+
+[ 2016-12-26T23:33:31+08:00 ] 127.0.0.1 /thinkoa/index.php/admin/email/add
+ERR: 无法加载控制器:Thinkoa
+
